@@ -13,7 +13,7 @@ export default function Title() {
                     <Stack  id="title-stack">
                         <Typography class="title-font" >Self</Typography>
                         <Typography class="title-font"  fontFamily="elephant">Taught</Typography>
-                        <Typography variant='h2' fontFamily="elephant">Jewelry</Typography>
+                        <Typography class="title-font"   fontFamily="elephant">Jewelry</Typography>
                     </Stack>
                 </Paper>
             </div>
