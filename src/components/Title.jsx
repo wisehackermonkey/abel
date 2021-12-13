@@ -18,8 +18,8 @@ export default function Title() {
                 <Paper elevation={7} id="company-name" >
                     <Stack  id="title-stack">
                         {
-                            strings.title.split(" ").map((substring)=>(
-                                <Typography class="title-font" >{substring}</Typography>
+                            strings.title.split(" ").map((substring,key)=>(
+                                <Typography class="title-font" key={key} >{substring}</Typography>
 
                             ))
                         }
