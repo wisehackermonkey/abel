@@ -1,4 +1,5 @@
 import React from 'react'
+import ring from '/ring-v1.png'
 import "../css/CoverPhoto.css"
 import { Box, Paper, Stack } from '@mui/material'
 
@@ -10,7 +11,9 @@ export default function CoverPhoto() {
             justifyContent="center"
             id="cover-photo-row"
         >
-            <img src="/ring-v1.png" id="cover-photo" />
+            {/* <Paper id="cover-photo"> */}
+                <img src={ring}  id="cover-photo" />
+            {/* </Paper> */}
         </Stack>
     )
 }
