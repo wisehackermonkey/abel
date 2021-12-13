@@ -4,13 +4,13 @@ import "@fontsource/special-elite"
 import "../css/Contact.css"
 export default function Contact() {
     return (
-        <Stack direction="row-reverse" id="contact-row">
+        <Stack direction="row-reverse" >
             <Paper id="contact-box">
-                <Stack>
-                    <Typography Typography variant='h6' fontFamily="elephant" >Contact</Typography>
-                    <Typography Typography variant='h6' fontFamily="elephant" >+52 612-133-8634</Typography>
-                    <Typography Typography variant='h6' fontFamily="elephant" >clavecharro2@gmail.com</Typography>
-                    <Typography Typography variant='h6' fontFamily="elephant" >Address: Austin loaches #43</Typography>
+                <Stack   id="contact-column">
+                    <Typography class="contact-font" >Contact</Typography>
+                    <Typography class="contact-font" >+52 612-133-8634</Typography>
+                    <Typography class="contact-font" >clavecharro2@gmail.com</Typography>
+                    <Typography class="contact-font" >Address: Austin loaches #43</Typography>
                 </Stack>
             </Paper>
         </Stack>

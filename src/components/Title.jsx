@@ -9,7 +9,7 @@ export default function Title() {
     return (
         <>
             <div id="title-row">
-                <Paper elevation={10} id="company-name" >
+                <Paper elevation={7} id="company-name" >
                     <Stack  id="title-stack">
                         <Typography class="title-font" >Self</Typography>
                         <Typography class="title-font"  fontFamily="elephant">Taught</Typography>

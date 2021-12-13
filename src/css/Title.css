@@ -1,65 +1,8 @@
 
-.title-font {
-   font-family: 'Elephant', sans-serif; 
-        font-family: "Special Elite";  
-        
-        /* padding: 10px; */
-} 
-/* Large devices (laptops/desktops, 992px and up) */
-@media   screen and (min-width: 992px) {
-    .title-font {
-        /* background: orange; */
-        font-size: 50px;   
-         
-        margin: 5px; 
-    }
- 
-    #company-name{
-
-        /* background: orange;   */
-
-        position: absolute;
-        width: 250px;
-        /* height: 250px; */
-        left: 38px;
-        /* top: 0px; */
-    }
-    #title-row {
-        width: 100vw;
-        height: 20vh;
-    }
-} 
-@media only screen and (max-width: 768px) {
-
-    .title-font {
-        background: rgb(0, 255, 106);
-        font-size: 30px;  
-        margin: 1px; 
-     
-    } 
-     #company-name{
-        padding: 10px;
-        
-    background: blue;
-        font-family: 'Elephant', sans-serif;
-         position: absolute;
-         width: 150px;
-         height: 150px;
-
-        /* height: 250px; */
-        left: 20px;
-        /* top: 0px; */
-    }
-    #title-row {
-        width: 100vw;
-        height: 30vh;
-    }
-
-}
 
 @media only screen and (max-width: 600px){
     .title-font {
-        background: rgb(0, 255, 106);
+        /* background: rgb(0, 255, 106); */
         font-size: 30px;  
         margin: 1px; 
      
@@ -82,3 +25,34 @@
     }
 }
 
+ 
+/* Large devices (laptops/desktops, 600px and up) */
+@media   screen and (min-width: 600px) {
+    .title-font {
+        /* background: green; */
+        font-size: 40px;   
+         margin: 1px;
+          line-height: 90%;
+        padding-top: 14px;
+    }
+ 
+    #company-name{
+
+        padding: 4px; 
+        padding-top: 5px;
+         /* background: orange;   */
+
+        position: absolute;
+        width: 170px;
+        height: 170px;
+        /* height: 250px; */
+        left: 38px;
+        /* top: 0px; */
+    }
+    #title-row {
+        /* background: purple; */
+
+        width: 100vw;
+        height: 190px;
+    }
+}  

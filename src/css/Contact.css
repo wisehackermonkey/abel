@@ -1,15 +1,50 @@
-#contact-box{
-    /* position: absolute; */
-  width: 290px;
-  /* height: 91px; */
-  /* left: 75vw; */
-  /* top: 669px; */
-  
-  background: #F0F0F0;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-   
 
-#contact-row{
-  height: 10vh;
+@media only screen and (max-width: 600px) {
+  .contact-font {
+    /* background-color: aqua; */
+    margin: 0px;
+}
+  #contact-box{
+    /* position: absolute; */
+    width: 290px;
+    padding: 7px;
+
+    /* height: 91px; */
+    /* left: 75vw; */
+    /* top: 669px; */
+    
+    /* background: #F0F0F0; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  
+  #contact-row{
+    background: red;
+    height: 10vh;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .contact-font {
+    /* background-color: aqua; */
+    margin: 0px;
+}
+ 
+    #contact-box{
+      padding: 7px;
+      /* position: absolute; */
+      width: 290px;
+      /* height: 91px; */
+      /* left: 75vw; */
+      /* top: 669px; */
+      
+      background: #F0F0F0;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    
+    #contact-row{
+      background: orange;
+      height: 10vh;
+    }
 }

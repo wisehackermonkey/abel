@@ -1,4 +1,8 @@
-
+p {
+  /* font-family: 'Elephant', sans-serif;  */
+  font-family: "Special Elite";  
+      
+}
 #Container{
    height: "100vh"
 }
