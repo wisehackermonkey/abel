@@ -4,7 +4,7 @@ import ring from './img/ring-v1.png'
 import { CssBaseline, Grid, Paper, Stack, Typography, Box } from "@mui/material"
 
 import './App.css'
-
+import "/fonts/Tweaky.ttf"
 import "@fontsource/special-elite"
 
 import Title from "./components/Title"

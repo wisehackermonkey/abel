@@ -1,7 +1,13 @@
 p {
   /* font-family: 'Elephant', sans-serif;  */
-  font-family: "Special Elite";  
-      
+  /* font-family: "Special Elite";   */
+  /* font-family: 'Droid Sans';   */
+  /* font-family: 'dddddddddd';   */
+  font-family: 'Cinzel';  
+  /* font-family: 'Permanent Marker';   */
+  /* font-family: 'Fuzzy Bubbles';   */
+   /* @import url('./fonts/ALTERNATIVEROCK-Border.ttf'); */
+  /* font-family: 'ALTERNATIVEROCK-Border';   */
 }
 #Container{
    height: "100vh"

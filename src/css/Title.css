@@ -1,11 +1,16 @@
 
-
+.title-font {
+    /* font-kerning: none; */
+    letter-spacing: 0.0625em;
+    
+} 
 @media only screen and (max-width: 600px){
     .title-font {
         /* background: rgb(0, 255, 106); */
         font-size: 30px;  
         margin: 1px; 
-      
+        line-height: 69%;
+
     } 
      #company-name{
         padding: 10px;
@@ -32,14 +37,16 @@
         /* background: green; */
         font-size: 40px;   
          margin: 1px;
-          line-height: 90%;
         padding-top: 14px;
+        line-height: 35%;
+
     }
  
     #company-name{
 
-        padding: 4px; 
+        padding: 10px; 
         padding-top: 5px;
+        padding-bottom: 16px;
          /* background: orange;   */
 
         position: absolute;

@@ -12,8 +12,8 @@ let strings = new LocalizedStrings(localization["contact"]);
 export default function Contact() {
     return (
         <Stack direction="row-reverse" >
-            <Paper id="contact-box">
-                <Stack   id="contact-column">
+            <Paper elevation={0} id="contact-box">
+                <Stack  justifyContent="flex-end"  id="contact-column">
                     <Typography class="contact-font" >{strings.contact}</Typography>
                     <Typography class="contact-font" >Whatsapp: <a href={`tel:${information.phonenumber}`}>{information.shortphonenumber}</a></Typography>
                     <Typography class="contact-font" ><a href={`mailto:${information.email}`}>{information.email}</a></Typography>

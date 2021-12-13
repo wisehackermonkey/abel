@@ -15,7 +15,7 @@ export default function Title() {
     return (
         <>
             <div id="title-row">
-                <Paper elevation={7} id="company-name" >
+                <Paper elevation={0} id="company-name" >
                     <Stack  id="title-stack">
                         {
                             strings.title.split(" ").map((substring,key)=>(
