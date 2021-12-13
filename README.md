@@ -40,6 +40,8 @@
 cd ~
 git clone https://github.com/wisehackermonkey/abel.git
 cd abel
+pnpm install
+pnpm run dev
 ```
 
 

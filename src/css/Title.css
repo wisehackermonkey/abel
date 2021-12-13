@@ -1,0 +1,52 @@
+.title-font {
+   font-family: 'Elephant', sans-serif; 
+        /* font-family: "Special Elite";   */
+        
+        padding: 10px;
+} 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .title-font {
+        /* background: rgb(0, 255, 106); */
+        font-size: 50px;   
+         
+        margin: 5px; 
+    }
+ 
+    #company-name{
+
+        /* background: orange;   */
+
+        position: absolute;
+        width: 250px;
+        /* height: 250px; */
+        left: 38px;
+        /* top: 0px; */
+    }
+    #title-row {
+        width: 100vw;
+        height: 20vh;
+    }
+} 
+
+
+@media only screen and (max-width: 600px){
+    .title-font {
+        /* background: rgb(0, 255, 106); */
+        font-size: 50px;  
+        margin: 5px; 
+    } 
+     #company-name{
+        /* background: red; */
+        font-family: 'Elephant', sans-serif;
+         position: absolute;
+        /* width: 50vw; */
+        /* height: 250px; */
+        left: 38px;
+        /* top: 0px; */
+    }
+    #title-row {
+        width: 100vw;
+        height: 20vh;
+    }
+}
