@@ -1,0 +1,20 @@
+{
+    "contact": {
+        "en-US": {
+            "address": "Address",
+            "contact":"Contact"
+        },
+        "es": {
+            "address": "Dirección",
+            "contact":"Contacto"
+        }
+    },
+    "title":{
+        "en-US":{
+            "title": "Self Taught Jewelry"
+        },
+        "es":{
+            "title": "Joyería autodidacta"
+        }
+    }
+}

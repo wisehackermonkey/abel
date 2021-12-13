@@ -8,6 +8,7 @@ specifiers:
   '@vitejs/plugin-react': ^1.0.7
   react: ^17.0.2
   react-dom: ^17.0.2
+  react-localization: ^1.0.17
   vite: ^2.7.1
 
 dependencies:
@@ -17,6 +18,7 @@ dependencies:
   '@mui/material': 5.2.3_c84e354a724f4213aa6539fdea9d08aa
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
+  react-localization: 1.0.17_react@17.0.2
 
 devDependencies:
   '@vitejs/plugin-react': 1.1.1
@@ -1002,6 +1004,10 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: false
 
+  /localized-strings/0.2.4:
+    resolution: {integrity: sha512-TKDhqFPkIIN/if2FSvVVZTaM/GP9TzfgdQ2uY65mr32xgFu5nqkKXprXbzy5rfx32DF5LDvS/y1UqYF/mAscYA==}
+    dev: false
+
   /loose-envify/1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
     hasBin: true
@@ -1100,6 +1106,15 @@ packages:
 
   /react-is/17.0.2:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
+    dev: false
+
+  /react-localization/1.0.17_react@17.0.2:
+    resolution: {integrity: sha512-UowuLAvnEPXJgzxjDX/9hKdKYvtUgC6hQ5PV0CnT5f/77tItIUru5tTwgrDY2UL5oUK3JRMgz42tqnAU2W5eoA==}
+    peerDependencies:
+      react: ^17.0.0 || ^16.0.0 || ^15.6.0
+    dependencies:
+      localized-strings: 0.2.4
+      react: 17.0.2
     dev: false
 
   /react-refresh/0.11.0:
