@@ -7,6 +7,10 @@
         "es": {
             "address": "Dirección",
             "contact":"Contacto"
+        },
+        "es-MX": {
+            "address": "Dirección",
+            "contact":"Contacto"
         }
     },
     "title":{
@@ -14,6 +18,9 @@
             "title": "Self Taught Jewelry"
         },
         "es":{
+            "title": "Joyería autodidacta"
+        },
+        "":{
             "title": "Joyería autodidacta"
         }
     }
