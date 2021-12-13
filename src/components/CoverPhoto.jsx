@@ -1,5 +1,5 @@
 import React from 'react'
-import ring from '/ring.png'
+// import ring from '/ring.png'
 import "../css/CoverPhoto.css"
 import { Box, Paper, Stack } from '@mui/material'
 
@@ -12,7 +12,7 @@ export default function CoverPhoto() {
             id="cover-photo-row"
         >
             {/* <Paper id="cover-photo"> */}
-                <img src={ring}  id="cover-photo" />
+                <img src="https://media.githubusercontent.com/media/wisehackermonkey/abel/gh-pages/ring-v1.png"  id="cover-photo" />
             {/* </Paper> */}
         </Stack>
     )
