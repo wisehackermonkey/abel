@@ -15,9 +15,10 @@ export default function Contact() {
             <Paper id="contact-box">
                 <Stack   id="contact-column">
                     <Typography class="contact-font" >{strings.contact}</Typography>
-                    <Typography class="contact-font" >Whatsapp: {information.shortphonenumber}</Typography>
-                    <Typography class="contact-font" >{information.email}</Typography>
-                    <Typography class="contact-font" >{strings.address}: {information.address}</Typography>
+                    <Typography class="contact-font" >Whatsapp: <a href={`tel:${information.phonenumber}`}>{information.shortphonenumber}</a></Typography>
+                    <Typography class="contact-font" ><a href={`mailto:${information.email}`}>{information.email}</a></Typography>
+                    <Typography class="contact-font" >{strings.address}: <a href={information.addresslink}>{information.address}</a></Typography>
+                    <Typography class="contact-font" >Facebook: <a href={information.facebook}>{information.facebookusername}</a></Typography>
                 </Stack>
             </Paper>
         </Stack>
